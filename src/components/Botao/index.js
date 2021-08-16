@@ -1,7 +1,7 @@
 import './style.css';
 
-function Botao({ children }) {
-	return <button className="botao">{ children }</button>;
+function Botao({ children, ...rest }) {
+	return <button className="botao" {...rest}>{ children }</button>;
 }
 
 export default Botao;

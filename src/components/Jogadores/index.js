@@ -1,20 +1,20 @@
 import './styles.css';
 
-import pessoa from '../../assets/pessoa.png'
-import robo from '../../assets/robo.png'
+import pessoaImagem from '../../assets/pessoa.png'
+import roboImagem from '../../assets/robo.png'
 
-function Jogadores() {
+function Jogadores({ voce, robo }) {
 	return (
 		<div className="jogadores">
 			<div className="pessoa">
 				<p>Voce:</p>
-				<p>0</p>
-				<img src={ pessoa } alt="voce" />
+				<p>{voce}</p>
+				<img src={ pessoaImagem } alt="voce" />
 			</div>
 			<div className="robo">
 				<p>Computador:</p>
-				<p>0</p>
-				<img src={ robo } alt="computador" />
+				<p>{ robo }</p>
+				<img src={ roboImagem } alt="computador" />
 			</div>
 		</div>
 	);
