@@ -1,0 +1,27 @@
+.tabuleiro .jogadores {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 50px auto;
+
+	background-color: #d9ffff;
+	border-radius: 20px;
+	width: 300px;
+	padding: 20px;
+}
+
+.tabuleiro .jogadores p {
+	color: #3238a8;
+	margin: 0;
+	height: 25px;
+}
+
+.tabuleiro .jogadores img {
+	width: 70px;
+}
+
+.tabuleiro .jogadores .pessoa, 
+.tabuleiro .jogadores .robo {
+	width: 70px;
+	text-align: center;
+}

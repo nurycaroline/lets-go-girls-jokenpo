@@ -1,0 +1,11 @@
+.tabuleiro .opcoes {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 20px auto;
+	width: 300px;
+}
+
+.tabuleiro .opcoes img {
+	width: 50px;
+}
